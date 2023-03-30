@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Module containing list sum
 """
+import typing
 
 
-def sum_list(input_list: list[float]) -> float:
+def sum_list(input_list: typing.List[float]) -> float:
     """Sums a list of float
     
     Args:
