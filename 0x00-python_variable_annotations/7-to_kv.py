@@ -3,13 +3,14 @@
 """
 import typing
 
+
 def to_kv(k: str, v: typing.Union[int, float]) -> typing.Tuple[str, float]:
     """Create a tuple
-    
+
     Args:
         k (str): First.
         v (int | float): Second.
-        
+
     Returns:
         tuple(str, float): Output.
     """

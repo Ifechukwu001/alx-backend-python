@@ -3,12 +3,17 @@
 """
 import typing
 
-def element_length(lst: typing.Iterable[typing.Sequence]) -> typing.List[typing.Tuple[typing.Sequence, int]]:
+
+def element_length(lst: typing.Iterable[
+                                typing.Sequence
+                                ]) -> typing.List[
+                                        typing.Tuple[
+                                            typing.Sequence, int]]:
     """List elements
-    
+
     Args:
         lst (list of sequence): Input data.
-        
+
     Returns:
         list: Output
     """

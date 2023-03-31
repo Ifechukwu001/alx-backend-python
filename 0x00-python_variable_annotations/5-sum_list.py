@@ -6,10 +6,10 @@ import typing
 
 def sum_list(input_list: typing.List[float]) -> float:
     """Sums a list of float
-    
+
     Args:
         input_list (list of float): Input data.
-        
+
     Return:
         float: sum.
     """

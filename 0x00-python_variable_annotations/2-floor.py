@@ -3,12 +3,13 @@
 """
 import math
 
+
 def floor(n: float) -> int:
     """Floors a float
-    
+
     Args:
         n (float): Input float
-        
+    
     Return:
         int: Output integer
     """

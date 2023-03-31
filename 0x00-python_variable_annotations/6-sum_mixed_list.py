@@ -3,12 +3,13 @@
 """
 import typing
 
+
 def sum_mixed_list(mxd_list: typing.List[typing.Union[int, float]]) -> float:
     """Sums inputs
-    
+
     Args:
         mxd_list (int | float): Input data.
-        
+
     Returns:
         float: Sum.
     """

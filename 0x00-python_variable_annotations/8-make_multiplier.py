@@ -6,10 +6,10 @@ import typing
 
 def make_multiplier(multiplier: float) -> typing.Callable[[float], float]:
     """Multiplier decorator
-    
+
     Args:
         multiplier (float): Multiplier value.
-        
+
     Returns:
         function: Output.
     """
